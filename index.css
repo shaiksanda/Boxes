@@ -1,0 +1,36 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: center;
+  }
+}
+
+.card-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+  .card-style {
+    align-self: flex-end;
+  }
+}
